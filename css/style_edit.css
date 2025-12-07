@@ -1,4 +1,4 @@
-/* 
+/*
     Document   : style.css
     Created on : Jul 9, 2015, 12:38:10 PM
     Author     : Vermont Technical College
@@ -21,13 +21,13 @@ h2, h3 {
     font-weight: 400;
 }
 
-h1.ada_compliance{
+h1.ada_compliance {
     margin: 0;
     padding-bottom: 20px;
     letter-spacing: -1px;
     font-family: 'Oswald', sans-serif;
-	font-weight: 400;
-	font-size: 2.4em;
+    font-weight: 400;
+    font-size: 2.4em;
 }
 
 h2 {
@@ -46,35 +46,36 @@ p, ul, ol {
 ul, ol {
 }
 
-a{
+a {
     text-decoration: underline;
     color: White;
-	font-style: italic;
+    font-style: italic;
 }
 
-a.skipNav{
-	color: transparent;
-	padding: 4px;
+a.skipNav {
+    color: transparent;
+    padding: 4px;
 }
 
-a.skipNav:focus{
-	color: #000000;
-	background: #FFFFFF;
+a.skipNav:focus {
+    color: #000000;
+    background: #FFFFFF;
 }
 
-a:hover{
-	color: #000000;
-	background: rgba(255,255,255,.85);
-	padding-bottom: 5px;
-	padding-top: 5px;
-	border-radius: 5px;
+a:hover {
+    color: #000000;
+    background: rgba(255, 255, 255, .85);
+    padding-bottom: 5px;
+    padding-top: 5px;
+    border-radius: 5px;
 }
-a:focus{
-	color: #000000;
-	background: rgba(255,255,255,.85);
-	padding-bottom: 5px;
-	padding-top: 5px;
-	border-radius: 5px;
+
+a:focus {
+    color: #000000;
+    background: rgba(255, 255, 255, .85);
+    padding-bottom: 5px;
+    padding-top: 5px;
+    border-radius: 5px;
 }
 
 img.border {
@@ -106,10 +107,10 @@ img.aligncenter {
     color: white;
 }
 
-h2.siteTitle{
-	background: rgba(89,89,89,0.6);
-	font-size: 1.4em;
-	border-radius: 10px;
+h2.siteTitle {
+    background: rgba(89, 89, 89, 0.6);
+    font-size: 1.4em;
+    border-radius: 10px;
 }
 
 /* Navigation */
@@ -138,19 +139,20 @@ h2.siteTitle{
 
 .current_page_item {
     background: #1e50ae;
-	text-decoration: none;
-	font-style: normal;
-}
-.current_page_item:hover{
-	background: #1e50ae;
-	text-decoration: none;
-	font-style: normal;
+    text-decoration: none;
+    font-style: normal;
 }
 
-.current_page_item:focus{
-	background: #1e50ae;
-	text-decoration: none;
-	font-style: normal;
+.current_page_item:hover {
+    background: #1e50ae;
+    text-decoration: none;
+    font-style: normal;
+}
+
+.current_page_item:focus {
+    background: #1e50ae;
+    text-decoration: none;
+    font-style: normal;
 }
 
 .menu li:hover > a, .menu .current-item > a {
@@ -170,83 +172,86 @@ h2.siteTitle{
     display: inline-block;
     position: relative;
     font-size: 19px;
-	
+
 }
 
 .menu > ul > li > a.current_page_item {
     padding-bottom: 10px;
-	padding-top: 10px;
-	padding-right: 40px;
-	padding-left: 40px;
+    padding-top: 10px;
+    padding-right: 40px;
+    padding-left: 40px;
     display: inline-block;
-	border-radius: 0px;
+    border-radius: 0px;
 }
 
 .menu > ul > li > a.normal {
     padding-bottom: 10px;
-	padding-top: 10px;
-	padding-right: 40px;
-	padding-left: 40px;
+    padding-top: 10px;
+    padding-right: 40px;
+    padding-left: 40px;
     display: inline-block;
-	text-decoration: none;
-	font-style: normal;
-	border-radius: 0px;
+    text-decoration: none;
+    font-style: normal;
+    border-radius: 0px;
 }
 
 .menu > ul > .current-item > a {
     background: #1e50ae;
 }
-.menu > ul > li:hover > a.normal:hover{
-	background: #1e50ae;
-}
-.menu > ul > li > a.normal{
-	background: #163c83;
+
+.menu > ul > li:hover > a.normal:hover {
+    background: #1e50ae;
 }
 
-button.navbar{
-	background: transparent;
-	color: #FFFFFF;
-	border: none;
-	cursor: pointer;
-	padding-bottom: 10px;
-	padding-top: 10px;
-	padding-right: 10px;
-	padding-left: 0px;
+.menu > ul > li > a.normal {
+    background: #163c83;
 }
 
-li.tab:hover{
-	background: #1e50ae;
+button.navbar {
+    background: transparent;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-left: 0px;
 }
 
-li.tab{
-	background: #163c83;
+li.tab:hover {
+    background: #1e50ae;
 }
 
-li.tabActive{
-	background: #1e50ae;
+li.tab {
+    background: #163c83;
 }
 
-a.newdropdown{
-	padding-bottom: 10px;
-	padding-top: 10px;
-	padding-right: 0px;
-	padding-left: 40px;
+li.tabActive {
+    background: #1e50ae;
+}
+
+a.newdropdown {
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-right: 0px;
+    padding-left: 40px;
     display: inline-block;
-	text-decoration: none;
-	font-style: normal;
-}
-a.newdropdown:hover{
-	background: #1e50ae;
+    text-decoration: none;
+    font-style: normal;
 }
 
-a.imageLink{					
-	background: transparent;
+a.newdropdown:hover {
+    background: #1e50ae;
+}
+
+a.imageLink {
+    background: transparent;
 }
 
 /*----- Bottom Level -----*/
-.menu li:hover .sub-menu{
+.menu li:hover .sub-menu {
     display: inline;
-	background: #163c83;
+    background: #163c83;
 }
 
 .sub-menu {
@@ -255,7 +260,7 @@ a.imageLink{
     position: absolute;
     top: 100%;
     left: 0;
-	display: none;
+    display: none;
     transition: all linear 0.5s;
     box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
 }
@@ -263,22 +268,22 @@ a.imageLink{
 .sub-menu li {
     display: block;
     font-size: 16px;
-	background: #163c83;
+    background: #163c83;
 }
 
 .sub-menu li a {
     padding: 10px 30px;
     display: block;
-	text-decoration: none;
-	font-style: normal;
+    text-decoration: none;
+    font-style: normal;
 }
 
 .sub-menu li a:hover, .sub-menu .current-item a {
     background: #1e50ae;
 }
-		
+
 .sub-menu li a:focus, .sub-menu .current-item a {
-	background: #1e50ae;
+    background: #1e50ae;
 }
 
 #page {
@@ -286,7 +291,7 @@ a.imageLink{
     width: 900px;
     margin: 0 auto;
     padding: 50px 40px;
-	background: #1e50ae;
+    background: #1e50ae;
 }
 
 
